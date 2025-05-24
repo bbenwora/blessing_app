@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ key }}</title>
+</head>
+<body>
+    <h1>{{ key }}</h1>
+    <img src="{{ url_for('static', filename=image) }}" alt="{{ key }}" style="max-width: 300px;">
+    <p>{{ message }}</p>
+</body>
+</html>
